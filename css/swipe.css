@@ -1,0 +1,54 @@
+:root{
+    --swiper-navigation-size: 22px;
+    --swiper-theme-color: #ff8800
+}
+
+.swipe {
+  background: #181a1f;
+  height: 16rem;
+  width: 90%;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #181a1f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 7rem;
+  height: 7rem;
+  object-fit: cover;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 768px) {
+  .swipe {
+    height: 18rem;
+  }
+  :root{
+    --swiper-navigation-size: 44px;
+  }
+}

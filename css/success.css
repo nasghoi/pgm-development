@@ -1,0 +1,46 @@
+body {
+  background-image: url("../img/top-bg.webp");
+  background-repeat: repeat;
+  background-size: auto;
+}
+
+.center-site {
+  background-color: #1e1e1e;
+  padding-left: 2rem;
+  position: absolute;
+  border-radius: 15px;
+  border: 2px solid #eee;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.tick {
+  width: 5rem;
+  clip-path: circle();
+  background-color: #eee;
+}
+.container {
+  width: auto;
+}
+.block {
+  height: auto;
+  text-align: center;
+  padding: 1.7rem 2rem;
+  background-color: #1e1e1e;
+  border-radius: 15px;
+}
+
+@media (max-width: 380px) {
+  .center-site {
+    padding: 0;
+  }
+  .tick {
+    display: none;
+  }
+}
+@media (min-width: 1300px) {
+  body {
+    background-size: cover;
+  }
+}

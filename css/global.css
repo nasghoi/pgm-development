@@ -1,0 +1,373 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Karla", sans-serif;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+hr {
+  width: 100px;
+  display: block;
+  border: 0;
+  padding: 0;
+}
+
+hr.hr-org {
+  border-top: 2px solid #ff8800;
+  margin-bottom: 2rem;
+}
+
+hr.hr-black {
+  border-top: 5px solid #1e1e1e;
+  border-radius: 15px;
+}
+
+/* scroll */
+
+::-webkit-scrollbar {
+  width: 0.6rem;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #ff8800;
+  border-radius: 15px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #eee;
+}
+::-webkit-scrollbar-thumb:active {
+  background-color: #fff;
+}
+::-webkit-scrollbar-track {
+  background-color: #1e1e1e;
+}
+
+/* button */
+
+.orgbutton {
+  text-decoration: none;
+  padding: 10px 25px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #000;
+  background-color: #ff8800;
+  border: none;
+  border-radius: 5px;
+}
+.orgbutton:hover {
+  background-color: #000;
+  color: #ff8800;
+}
+.orgbutton:active {
+  color: #ff8800;
+  background-color: #eee;
+}
+
+.blkbutton {
+  padding: 10px 30px;
+  font-size: 12px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #eee;
+  background-color: #1e1e1e;
+  border: none;
+  border-radius: 10px;
+}
+.blkbutton:hover {
+  color: #ff8800;
+  background-color: #1e1e1e;
+}
+
+.blkbutton:active {
+  background-color: #eee;
+  color: #1e1e1e;
+}
+
+.submit-button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 90%;
+  height: 3rem;
+  border-radius: 15px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #eee;
+  text-align: center;
+  background: #ff8800;
+  transition: 0.2s;
+}
+
+.submit-button:hover {
+  color: #ff8800;
+  text-align: center;
+  background: #eee;
+}
+
+.submit-button:active {
+  color: #ff8800;
+  text-align: center;
+  background: #1e1e1e;
+}
+
+/* font style, colour, family etc. */
+
+.ftorange {
+  color: #ff8800;
+}
+
+.ftwhite {
+  color: #eee;
+}
+
+.ftblack {
+  color: #1e1e1e;
+}
+
+.ftkarla {
+  font-family: "Karla", sans-serif;
+}
+
+.ftspace {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+p {
+  font-size: 20px;
+}
+
+.p-sm,
+.p-sm2 {
+  font-size: 0.8rem;
+}
+
+.fth1 {
+  font-size: 1.5rem;
+}
+
+.fth2 {
+  font-size: 1.2rem;
+}
+
+.fth3 {
+  font-size: 1rem;
+}
+
+.fth4{
+  font-size: 0.9rem;
+}
+
+.fth5 {
+  font-size: 0.75rem;
+}
+
+.ft200 {
+  font-weight: 200;
+}
+
+.ft400 {
+  font-weight: 400;
+}
+
+.ft600 {
+  font-weight: 600;
+}
+.ft800 {
+  font-weight: 800;
+}
+
+.ltspace-4px {
+  letter-spacing: 4px;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.center {
+  text-align: center;
+}
+
+.overhidden {
+  overflow: hidden;
+}
+/* margin */
+
+.mg-0 {
+  margin: 0;
+}
+
+.mg-t10 {
+  margin-top: 10px;
+}
+.mg-b5 {
+  margin-bottom: 5px;
+}
+.mg-b10 {
+  margin-bottom: 10px;
+}
+.mg-t20 {
+  margin-top: 20px;
+}
+.mg-b20 {
+  margin-bottom: 20px;
+}
+.mg-t40 {
+  margin-top: 40px;
+}
+.mg-b40 {
+  margin-bottom: 40px;
+}
+.mg-t60 {
+  margin-top: 60px;
+}
+.mg-b60 {
+  margin-bottom: 60px;
+}
+.mg-t80 {
+  margin-top: 80px;
+}
+.mg-b80 {
+  margin-bottom: 80px;
+}
+
+/* padding */
+
+.pd-b40 {
+  padding-bottom: 40px;
+}
+.pd-b60 {
+  padding-bottom: 60px;
+}
+
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* flexbox */
+
+.flex {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+/* cursor */
+
+.pointer {
+  cursor: pointer;
+}
+
+.default {
+  cursor: default;
+}
+
+/* position */
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+/* keyframes */
+
+@keyframes enter-from-left {
+  0% {
+    -webkit-transform: translateX(-10%);
+    transform: translateX(-10%);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes enter-from-top {
+  0% {
+    -webkit-transform: translateY(-10%);
+    transform: translateY(-10%);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* media query */
+
+@media (min-width: 768px) {
+  .orgbutton {
+    padding: 15px 38px;
+    font-size: 16px;
+  }
+  .p-sm {
+    font-size: 1.1rem;
+  }
+  .fth1 {
+    font-size: 2.2rem;
+  }
+  .fth2 {
+    font-size: 1.8rem;
+  }
+  .fth3 {
+    font-size: 1.4rem;
+  }
+  .fth4 {
+    font-size: 1.1rem;
+  }
+  .fth5 {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 1024px) {
+  .p-sm2 {
+    font-size: 1.1rem;
+  }
+}
