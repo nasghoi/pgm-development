@@ -37,7 +37,7 @@
         <div class="block default">
             <h2 class="ftorange fth3 ftspace ft400 mg-b10">Kreativiti kami melangkaui jangkaan anda.</h2>
             <h1 class="ftwhite fth1">Pereka Grafik Melayu</h1>
-            <h2 class="ftwhite fth1 mg-b60">Penyelesaian Untuk Masa <span class="ftorange">Hadapan</span>.</h2>
+            <h2 class="ftwhite fth1 mg-b60">Penyelesaian Untuk Masa <span class="ftorange">Hadapan Kita</span>.</h2>
             <a href="https://wa.link/wnmbyl" target="_blank" rel="noopener noreferrer" class="orgbutton">Hubungi Kami</a>
         </div>        
     </header>
