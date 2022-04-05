@@ -66,7 +66,7 @@
     <section id="about" class="aboutsec default">
         <div class="about">
             <div>
-                <h5 class="ftorange fth5 ft400 ltspace-4px">TENTANG KAMI</h5>
+                <h5 class="ftorange fth5 ft400 ltspace-4px">Tentang Kami</h5>
                 <h2 class="ftwhite fth2 mg-b10">Pereka Grafik <span class="ftorange">Melayu</span></h2>
                 <hr class="hr-org mg-0 mg-b40">
                 <p class="ftorange justify p-sm mg-b20">Pereka Grafik Melayu (PGM) adalah sebuah syarikat yang menawarkan perkhidmatan rekaan grafik, pengiklanan dan pemasaran.</p>
